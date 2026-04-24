@@ -2,19 +2,19 @@ pipeline {
     agent any
 
     stages {
-        stage('Apple') {
+        stage('Apple-A') {
             steps {
                 echo 'Building...'
             }
         }
 
-        stage('Book') {
+        stage('Book-B') {
             steps {
                 echo 'Testing...'
             }
         }
 
-        stage('Camera') {
+        stage('Camera-C') {
             steps {
                 echo 'Deploying...'
             }
